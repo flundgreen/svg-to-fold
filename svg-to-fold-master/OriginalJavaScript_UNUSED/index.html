@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<title> </title>
+<body>
+	<svg width="400" height="400" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+		<line fill="none" stroke="#d42" x1="53.7" y1="3" x2="79.7" y2="95.2"/>
+		<line fill="none" stroke="#d42" x1="3.9" y1="13.3" x2="33.3" y2="34.7"/>
+		<line fill="none" stroke="#349" x1="9.9" y1="79.9" x2="88.8" y2="16.1"/>
+		<line fill="none" stroke="#349" x1="42.4" y1="65.8" x2="63.2" y2="56"/>
+		<line fill="none" stroke="black" x1="94.1" y1="92.1" x2="6.7" y2="56"/>
+	</svg>
+</body>
+<script type="text/javascript" src="https://robbykraft.github.io/svg-segmentize/svg-segmentize.min.js"></script>
+<script type="text/javascript" src="https://edemaine.github.io/fold/dist/fold.js"></script>
+<script type="text/javascript" src="../tofold.min.js"></script>
+<script>
+const foldObject = tofold(document.querySelectorAll("svg")[0]);
+const pre = document.createElement("pre");
+pre.innerHTML = `# vertices ${foldObject.vertices_coords.length}
+# edges ${foldObject.edges_vertices.length}
+# faces ${foldObject.faces_vertices.length}
+FOLD contents: ${JSON.stringify(foldObject, null, 2)}`;
+document.body.appendChild(pre);
+</script>

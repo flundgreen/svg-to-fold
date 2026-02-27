@@ -1,0 +1,51 @@
+test-01.svg
+
+- test crossing lines (no collinear overlaps)
+- test non-crossing lines
+- test mountain valley retention
+- vertices count: 13
+- edges count: 11
+  - mountain: 4
+  - valley 4
+  - unassigned 3
+
+test-02.svg
+
+- test many edges crossing at the same point
+- vertices count: 17
+- edges count: 16
+  - mountain: 8
+  - valley 6
+  - unassigned 2
+
+test-03.svg
+
+- test non-intersecting, but ending collinear along an edge. vertical/horizontal
+- vertices count: 12
+- edges count: 16
+  - mountain: 3
+  - valley 4
+  - boundary 9
+
+test-04.svg
+
+- test non-intersecting, but ending collinear along an edge. diagonal
+- vertices count: 9
+- edges count: 13
+  - mountain: 3
+  - valley 4
+  - buundary 6
+
+test-05.svg
+
+- test multiple overlapping collinear edges
+- vertices count: 6
+- edges count: 5
+  - mountain: ?
+  - valley ?
+  - unassigned ?
+
+test-06.svg, test-07.svg
+
+- test overlap point not-quite aligning. artifact from hand-drawn svgs
+- test-07 raises the epsilon to merge vertices across the intended distance

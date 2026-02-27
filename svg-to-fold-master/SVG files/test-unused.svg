@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+	<line stroke="black" x1="14" y1="1" x2="14" y2="91"/>
+	<line stroke="black" x1="10.2" y1="6.9" x2="27.8" y2="95.1"/>
+	<line stroke="black" x1="6.8" y1="14.4" x2="41.2" y2="97.6"/>
+	<line stroke="black" x1="4" y1="23.6" x2="54" y2="98.4"/>
+	<line stroke="black" x1="2.2" y1="34.2" x2="65.8" y2="97.8"/>
+	<line stroke="black" x1="1.6" y1="46" x2="76.4" y2="96"/>
+	<line stroke="black" x1="2.4" y1="58.8" x2="85.6" y2="93.2"/>
+	<line stroke="black" x1="4.9" y1="72.2" x2="93.1" y2="89.8"/>
+	<line stroke="black" x1="9" y1="86" x2="99" y2="86"/>
+</svg>

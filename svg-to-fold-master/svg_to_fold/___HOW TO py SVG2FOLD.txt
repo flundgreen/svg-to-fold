@@ -1,0 +1,5 @@
+In terminal:
+python -m svg_to_fold YOUR_PATH_AND_SVG --output tests/output/ --pretty --merge-tolerance 2.0
+
+# Convert all SVGs in a folder
+python -m svg_to_fold --dir ./my_patterns/ --output ./output/ --pretty --merge-tolerance 2.0
